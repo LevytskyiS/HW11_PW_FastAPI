@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hwm11"
+version = "0.1.0"
+description = ""
+authors = ["LevytskyiS <levytskyi.sv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.92.0"
+uvicorn = {extras = ["standard"], version = "^0.20.0"}
+sqlalchemy = "^2.0.4"
+psycopg2 = "^2.9.5"
+alembic = "^1.9.4"
+pydantic = {extras = ["email"], version = "^1.10.5"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
